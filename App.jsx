@@ -64,8 +64,7 @@ export default App = () => {
           <Text style={styles.weatherText}><Icon name="water-outline" size={20} /> Humidity: {weatherData.current.humidity}%</Text>
           <Text style={styles.weatherText}><Icon name="speedometer-outline" size={20} /> Wind Speed: {weatherData.current.wind_kph} kph</Text>
           <Text style={styles.weatherText}><Icon name="compass-outline" size={20} /> Wind Direction: {weatherData.current.wind_dir}</Text>
-          <Text style={styles.weatherText}><Icon name="barometer-outline" size={20} /> Pressure: {weatherData.current.pressure_mb} mb</Text>
-          <Text style={styles.weatherText}><Icon name="umbrella-outline" size={20} /> Precipitation: {weatherData.current.precip_mm} mm</Text>
+          <Text style={styles.weatherText}><Icon name="umbrella-outline" size={20} /> Precipitration: {weatherData.current.precip_mm} mm</Text>
           <Text style={styles.weatherText}><Icon name="cloud-outline" size={20} /> Cloud Cover: {weatherData.current.cloud}%</Text>
           <Text style={styles.weatherText}><Icon name="eye-outline" size={20} /> Visibility: {weatherData.current.vis_km} km</Text>
           <Text style={styles.weatherText}><Icon name="sunny-outline" size={20} /> UV Index: {weatherData.current.uv}</Text>
